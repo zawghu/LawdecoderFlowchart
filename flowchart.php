@@ -17,7 +17,11 @@
         foreach ($columns->column as $column) {
           print "<div class=\"column\">";
           foreach ($column->bubble as $bubble) {
-            print "<div id=\"{$bubble->name}\" class=\"bubble {$bubble->type}\"><p>{$bubble->name}</p></div>";
+            if($bubble->type == "empty") {
+              print "<div class=\"bubble empty\"></div>";
+            } else {
+              print "<div id=\"{$bubble->name}\" class=\"bubble {$bubble->type}\"><p>{$bubble->name}</p></div>";
+            }
           }
           print "</div>";
         }

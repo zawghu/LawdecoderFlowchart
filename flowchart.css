@@ -28,8 +28,8 @@ p {
 .bubble {
   border: 3px solid white;
   border-radius: 25px;
-  width: 100px;
-  height: 59px;
+  width: 120px;
+  height: 80px;
   background-color: #00dddd;
   margin-bottom: 20px;
   color: white;
@@ -72,4 +72,39 @@ p {
 }
 .selected:hover {
   background-color: #235B6E;
+}
+
+/* CSS changes on smaller screens */
+@media only screen and (max-width: 900px) {
+  body {
+      background-color: white;
+  }
+  .information {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 75%;
+    height: 300px;
+    float: none;
+  }
+
+  .column {
+      float: none;
+  }
+  .bubble {
+    margin: auto;
+    margin-bottom: 10px;
+    width: 75%;
+    font-size: 200%;
+  }
+
+  .empty {
+    border: 0px solid white;
+    border-radius: 0px;
+    width: 0px;
+    height: 0px;
+    margin-bottom: 0px;
+    color: white;
+    text-align: center;
+    padding: 0px;
+  }
 }
