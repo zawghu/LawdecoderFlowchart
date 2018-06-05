@@ -3,6 +3,7 @@ body {
 }
 h1 {
     color: #440044;
+    text-align: center;
 }
 p {
   font-family: Verdana, sans-serif;
@@ -10,10 +11,9 @@ p {
 
 .information {
   background-color: lightgray;
-  /*going to have to make all of this relative eventually*/
   width: 300px;
   height: 500px;
-  padding: 20px;
+  padding: 10px;
   color: #006666;
   float: left;
 }
@@ -33,6 +33,14 @@ p {
   color: white;
   text-align: center;
   font-size: large;
+  display: table;
+  padding: 5px;
+}
+
+.bubble p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 
 /* Different bubble type color variations */
