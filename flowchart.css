@@ -1,10 +1,12 @@
 body {
     background-color: white;
 }
+
 h1 {
     color: #440044;
     text-align: center;
 }
+
 p {
   font-family: Verdana, sans-serif;
 }
@@ -26,13 +28,12 @@ p {
 .bubble {
   border: 3px solid white;
   border-radius: 25px;
-  width: 150px;
-  height: 75px;
+  width: 100px;
+  height: 59px;
   background-color: #00dddd;
   margin-bottom: 20px;
   color: white;
   text-align: center;
-  font-size: large;
   display: table;
   padding: 5px;
 }

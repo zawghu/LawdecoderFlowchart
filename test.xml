@@ -1,7 +1,7 @@
 <columns>
   <column>
     <bubble>
-      <name>Test 3</name>
+      <name>Test -1</name>
       <type>empty</type>
     </bubble>
 
@@ -23,44 +23,50 @@
     </bubble>
 
     <bubble>
-      <name>Test 2</name>
-      <text>Huge Dog Information</text>
+      <name>Determine Budget</name>
+      <text>There are many ways of setting a budget for a single-family home. One such method outlined by Dave Ramsey describes a 5-step process that makes sure you do not exhaust your finances when purchasing a home.&lt;br&gt;&lt;br&gt;&lt;a href=\&quot;https://lawdecoder.com/5-step-process-for-budgeting-home-purchase/\&quot; target=\&quot;_blank\&quot; rel=\&quot;noopener\&quot;&gt;Click here for details on this process!&lt;/a&gt;</text>
       <type>preprocess</type>
     </bubble>
 
     <bubble>
-      <name>Test 3</name>
+      <name>Determine&lt;br&gt;Needs and Desires</name>
+      <text>Discovering your needs and desires in a real estate experience can be difficult, yet also dynamic. In many cases, the needs of homebuyers become desires; most areas of real estate are negotiable and that’s a good thing. For example, many homebuyers looking for single-family homes in high-performing school districts are able to move into an adjacent district and apply for enter into their targeted school district. While it is not guaranteed that one’s application will be approved, it is worth noting that many things in real estate are negotiable – even location!</text>
       <type>preprocess</type>
     </bubble>
 
     <bubble>
-      <name>Test 4</name>
-      <text>WOW</text>
+      <name>Select Location</name>
+      <text>Commonly referred to as the ‘golden rule’ of real estate, “Location, Location, Location” is an important saying because it’s true–finding the right location for your home or real estate investment can be the most important part of the home-buying process.&lt;br&gt;&lt;br&gt;&lt;a href=\&quot;https://lawdecoder.com/important-factors-in-choosing-location/\&quot; target=\&quot;_blank\&quot; rel=\&quot;noopener\&quot;&gt;Click here for some important factors in choosing the right home location!&lt;/a&gt;</text>
       <type>preprocess</type>
     </bubble>
   </column>
   <column>
     <bubble>
-      <name>Test 5</name>
-      <text>sdafafadsa</text>
+      <name>Test 1</name>
+      <text>Preprocess</text>
       <type>preprocess</type>
     </bubble>
 
     <bubble>
-      <name>Test 7</name>
+      <name>Test 0</name>
       <type>empty</type>
     </bubble>
 
     <bubble>
-      <name>Test 6</name>
-      <text>ahfeuafe</text>
-      <type>postprocess</type>
+      <name>Test 2</name>
+      <text>Offerprocess</text>
+      <type>offerprocess</type>
     </bubble>
 
     <bubble>
-      <name>Test 8</name>
-      <text>adsgadgs</text>
-      <type>preprocess</type>
+      <name>Test 3</name>
+      <text>Postprocess</text>
+      <type>postprocess</type>
+    </bubble>
+    <bubble>
+      <name>Test 4</name>
+      <text>Postprocess</text>
+      <type>postprocess</type>
     </bubble>
   </column>
 </columns>

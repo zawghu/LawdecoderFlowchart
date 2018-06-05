@@ -8,7 +8,7 @@
 <body>
   <div>
     <div id="info" class="information">
-      <h1>Title</h1>
+      <h1>Default Title</h1>
       <p>^ↀᴥↀ^<br>Meow. I'm a huge cat with a lot of information.</p>
     </div>
     <div class="flowchart">
@@ -50,6 +50,4 @@
     previousBubble = title;
   }
 </script>
-
-
 </html>
