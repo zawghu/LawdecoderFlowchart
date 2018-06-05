@@ -11,7 +11,7 @@ p {
 .information {
   background-color: lightgray;
   /*going to have to make all of this relative eventually*/
-  width: 200px;
+  width: 300px;
   height: 500px;
   padding: 20px;
   color: #006666;
@@ -29,7 +29,7 @@ p {
   width: 150px;
   height: 75px;
   background-color: #00dddd;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: white;
   text-align: center;
   font-size: large;

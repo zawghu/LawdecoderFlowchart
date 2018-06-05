@@ -1,0 +1,66 @@
+<columns>
+  <column>
+    <bubble>
+      <name>Test 3</name>
+      <type>empty</type>
+    </bubble>
+
+    <bubble>
+      <name>Home Buyer</name>
+      <type>default</type>
+    </bubble>
+
+    <bubble>
+      <name>Agent</name>
+      <type>default</type>
+    </bubble>
+  </column>
+  <column>
+    <bubble>
+      <name>Applications for Mortgage Pre-Approval</name>
+      <text>What a Mortgage company needs: &lt;br&gt;1. Personal Information&lt;br&gt; 2. Desired Location&lt;br&gt; 3. Income Information&lt;br&gt; 4. Wealth: Assets and Debts&lt;br&gt;</text>
+      <type>preprocess</type>
+    </bubble>
+
+    <bubble>
+      <name>Test 2</name>
+      <text>Huge Dog Information</text>
+      <type>preprocess</type>
+    </bubble>
+
+    <bubble>
+      <name>Test 3</name>
+      <type>preprocess</type>
+    </bubble>
+
+    <bubble>
+      <name>Test 4</name>
+      <text>WOW</text>
+      <type>preprocess</type>
+    </bubble>
+  </column>
+  <column>
+    <bubble>
+      <name>Test 5</name>
+      <text>sdafafadsa</text>
+      <type>preprocess</type>
+    </bubble>
+
+    <bubble>
+      <name>Test 7</name>
+      <type>empty</type>
+    </bubble>
+
+    <bubble>
+      <name>Test 6</name>
+      <text>ahfeuafe</text>
+      <type>postprocess</type>
+    </bubble>
+
+    <bubble>
+      <name>Test 8</name>
+      <text>adsgadgs</text>
+      <type>preprocess</type>
+    </bubble>
+  </column>
+</columns>
