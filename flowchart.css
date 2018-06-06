@@ -11,6 +11,14 @@ p {
   font-family: Verdana, sans-serif;
 }
 
+.contents {
+  display: none;
+}
+
+.column-title {
+  display: none;
+}
+
 .information {
   background-color: lightgray;
   width: 300px;
@@ -80,31 +88,41 @@ p {
       background-color: white;
   }
   .information {
-    margin: auto;
-    margin-bottom: 10px;
-    width: 75%;
-    height: 300px;
-    float: none;
+    display: none;
   }
 
   .column {
       float: none;
   }
   .bubble {
+    border: 0px solid white;
     margin: auto;
-    margin-bottom: 10px;
+    margin-top: 10px;
     width: 75%;
     font-size: 200%;
   }
-
   .empty {
+    display: none;
+  }
+  .contents {
+    border-radius: 5px;
+    margin: auto;
+    width: 65%;
+    background-color: lightgray;
+    font-size: 125%;
+    padding: 20px;
+  }
+  .column-title {
+    display: table;
     border: 0px solid white;
-    border-radius: 0px;
-    width: 0px;
-    height: 0px;
-    margin-bottom: 0px;
+    margin: auto;
+    margin-top: 10px;
+    width: 75%;
+    font-size: 200%;
+    border-radius: 25px;
     color: white;
     text-align: center;
-    padding: 0px;
+    display: table;
+    padding: 5px;
   }
 }

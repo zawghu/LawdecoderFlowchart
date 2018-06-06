@@ -1,5 +1,6 @@
 <columns>
   <column>
+    <title>Person</title>
     <bubble>
       <name>Test -1</name>
       <type>empty</type>
@@ -16,6 +17,7 @@
     </bubble>
   </column>
   <column>
+    <title>Pre-process</title>
     <bubble>
       <name>Applications for Mortgage Pre-Approval</name>
       <text>What a Mortgage company needs: &lt;br&gt;1. Personal Information&lt;br&gt; 2. Desired Location&lt;br&gt; 3. Income Information&lt;br&gt; 4. Wealth: Assets and Debts&lt;br&gt;</text>

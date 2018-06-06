@@ -15,12 +15,16 @@
       <?php
         $columns = simplexml_load_file('test.xml');
         foreach ($columns->column as $column) {
-          print "<div class=\"column\">";
+          print "<div class=\"parent preprocess column-title\"><p>{$column->title}</p></div>";
+          print "<div class=\"column child\">";
           foreach ($column->bubble as $bubble) {
             if($bubble->type == "empty") {
               print "<div class=\"bubble empty\"></div>";
             } else {
-              print "<div id=\"{$bubble->name}\" class=\"bubble {$bubble->type}\"><p>{$bubble->name}</p></div>";
+              print "<div id=\"{$bubble->name}\" class=\"bubble parent {$bubble->type}\"><p>{$bubble->name}</p></div>";
+              if ($bubble->type != "default") {
+                print "<div class=\"child baby contents\">{$bubble->text}</div>";
+              }
             }
           }
           print "</div>";
@@ -53,5 +57,34 @@
     }
     previousBubble = title;
   }
+
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function()
+{
+  //hide the all of the element with class contents
+  if ($(document).width() < 900) {
+    $(".child").hide();
+  }
+  $(".baby").hide();
+
+  //toggle the componenet with class bubble
+  $(".parent").click(function()
+  {
+    if ($(document).width() < 900) {
+      $(this).next(".child").slideToggle(600);
+    }
+  });
+});
+
+$(window).resize(function()
+{
+  //hide the all of the element with class contents
+  if ($(document).width() > 900) {
+    $(".child").show();
+    $(".baby").hide();
+  }
+});
 </script>
 </html>
