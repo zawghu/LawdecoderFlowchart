@@ -11,14 +11,6 @@ p {
   font-family: Verdana, sans-serif;
 }
 
-.contents {
-  display: none;
-}
-
-.column-title {
-  display: none;
-}
-
 .information {
   background-color: lightgray;
   width: 300px;
@@ -31,19 +23,34 @@ p {
 .column {
   float: left;
   padding: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.column-title {
+  display: none;
+}
+
+.arrow-column {
+  padding: 0px;
+  margin:auto;
 }
 
 .bubble {
-  border: 3px solid white;
   border-radius: 25px;
   width: 120px;
   height: 80px;
   background-color: #00dddd;
-  margin-bottom: 20px;
   color: white;
+  margin-bottom: 15px;
+  margin-top: 4px;
   text-align: center;
   display: table;
   padding: 5px;
+}
+
+.bubble:hover {
+  filter: opacity(60%);
 }
 
 .bubble p {
@@ -54,32 +61,53 @@ p {
 
 /* Different bubble type color variations */
 .empty {
-  background-color: white;
-  color: white;
+  visibility: hidden;
+  height: auto;
+}
+
+.default:hover {
+  filter: opacity(100%);
+}
+
+.default p {
+  color: black;
 }
 .preprocess {
   background-color: #006666;
 }
-.preprocess:hover {
-  background-color: #008080;
-}
 .offerprocess {
   background-color: #00dddd;
-}
-.offerprocess:hover {
-  background-color: #00b3b3;
 }
 .postprocess {
   background-color: #440044;
 }
-.postprocess:hover {
-  background-color: #990099;
-}
 .selected {
-  background-color: #235B6E;
+  filter: grayscale(90%);
 }
 .selected:hover {
-  background-color: #235B6E;
+  filter: grayscale(90%);
+}
+
+.arrow-bubble {
+  margin-bottom: 0px;
+}
+
+.vertical-arrow {
+  text-align: center;
+  font-size: 300%;
+  line-height: 32px;
+  margin:0px;
+}
+
+.horizontal-arrow {
+  text-align: center;
+  font-size: 300%;
+  margin:0px;
+  line-height:50px;
+}
+
+.contents {
+  display: none;
 }
 
 /* CSS changes on smaller screens */
@@ -87,42 +115,56 @@ p {
   body {
       background-color: white;
   }
-  .information {
-    display: none;
-  }
 
-  .column {
-      float: none;
-  }
   .bubble {
     border: 0px solid white;
     margin: auto;
     margin-top: 10px;
-    width: 75%;
+    width: 95%;
     font-size: 200%;
   }
-  .empty {
-    display: none;
-  }
+
   .contents {
     border-radius: 5px;
     margin: auto;
-    width: 65%;
+    width: 85%;
     background-color: lightgray;
     font-size: 125%;
     padding: 20px;
   }
+
   .column-title {
     display: table;
     border: 0px solid white;
     margin: auto;
     margin-top: 10px;
-    width: 75%;
+    width: 95%;
     font-size: 200%;
     border-radius: 25px;
     color: white;
     text-align: center;
     display: table;
     padding: 5px;
+  }
+
+  .information {
+    display: none;
+  }
+
+  .column {
+      float: none;
+      padding: 0px;
+  }
+
+  .empty {
+    display: none;
+  }
+
+  .vertical-arrow {
+    display: none;
+  }
+
+  .horizontal-arrow {
+    display: none;
   }
 }
