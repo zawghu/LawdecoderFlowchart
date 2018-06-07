@@ -109,6 +109,10 @@ p {
 .contents {
   display: none;
 }
+.dropdown {
+  display: none;
+}
+
 
 /* CSS changes on smaller screens */
 @media only screen and (max-width: 900px) {
@@ -166,5 +170,12 @@ p {
 
   .horizontal-arrow {
     display: none;
+  }
+
+  .flowchart {
+    display: none;
+  }
+  .dropdown {
+    display: inline;
   }
 }

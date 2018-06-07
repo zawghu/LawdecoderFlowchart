@@ -1,5 +1,6 @@
 <columns>
   <column>
+     <title>Identity</title>
      <bubble>
         <name>empty</name>
         <type>empty</type>
@@ -15,6 +16,7 @@
      </bubble>
   </column>
   <column>
+    <title>Preprocess</title>
      <bubble>
         <name>Applications for Mortgage Pre-Approval</name>
         <type>preprocess</type>
@@ -38,6 +40,7 @@
      </bubble>
   </column>
   <column>
+     <title>Offerprocess</title>
      <bubble>
         <name>empty</name>
         <type>empty</type>
@@ -58,7 +61,7 @@
      <bubble>
         <name>Offer</name>
         <type>offerprocess</type>
-        <text>An Offer to Purchase Real Estate is a legal document that is used by someone who wishes to place a bid on a house or other private residence that is for sale. This document contains information regarding the property like a description of the property, the price that is being offered, the proposed closing/possession date, and other important information the potential buyer wishes to include. This offer becomes a legally binding agreement when it is signed by the buyer and the seller, and when the contained contingencies are met or completed. These offers can be submitted to the seller or the seller’s agent(s).&lt;br&gt;&lt;br&gt;&lt;a href=\"https://lawdecoder.com/contingencies-for-an-offer-to-purchase-real-estate/\"&gt;Click here for examples of some of these contingencies!&lt;/a&gt; </text> 
+        <text>An Offer to Purchase Real Estate is a legal document that is used by someone who wishes to place a bid on a house or other private residence that is for sale. This document contains information regarding the property like a description of the property, the price that is being offered, the proposed closing/possession date, and other important information the potential buyer wishes to include. This offer becomes a legally binding agreement when it is signed by the buyer and the seller, and when the contained contingencies are met or completed. These offers can be submitted to the seller or the seller’s agent(s).&lt;br&gt;&lt;br&gt;&lt;a href=\"https://lawdecoder.com/contingencies-for-an-offer-to-purchase-real-estate/\"&gt;Click here for examples of some of these contingencies!&lt;/a&gt; </text>
      </bubble>
   </column>
   <column>
@@ -78,6 +81,7 @@
     </arr>
   </column>
   <column>
+    <title>Postprocess</title>
     <bubble>
        <name>a</name>
        <type>empty</type>
@@ -97,7 +101,8 @@
      </bubble>
      <bubble>
         <name>Acceptance of Offer</name>
-        <type>default</type>
+        <type>offerprocess</type>
+        <text>Once the prospective buyer has found a property that they are interested in purchasing, an offer is made to the seller that states the conditions of the buyer. Negotiations often take place during this process and once the two parties are satisfied with the terms, the offer is signed by both parties and the closing process begins. The document being signed is called the “Agreement of Sale” and legally binds the two parties to the conditions.</text>
         <arrow>down</arrow>
      </bubble>
      <bubble>
@@ -127,7 +132,7 @@
      <bubble>
         <name>Pre-Closing Inspection</name>
         <type>postprocess</type>
-        <text />
+        <text>This is an agreement between the two parties that officially accepts the buyer’s offer for the property and allows them to progress further in the process. The closing is the day when the buyer signs the mortgage documents and officially gains ownership of the property. During the closing, the buyer is required to bring a photo ID and a cashier’s check to cover the closing costs.</text>
      </bubble>
      <bubble>
         <name>Hazard Insurance</name>

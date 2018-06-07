@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,19 +8,24 @@
 <body>
   <div>
     <div id="info" class="information">
-      <h1>Default Title</h1>
-      <p>^ↀᴥↀ^<br>Meow. I'm a huge cat with a lot of information.</p>
+      <h1>Housing Flowchart</h1>
+      <p>These are the steps necessary for buying a house. Click on any step for additional details!</p>
     </div>
     <div class="flowchart">
+      <!--This php takes in an xml file, and using its information, generates a flowchart -->
       <?php
         $columns = simplexml_load_file('test1.xml');
         foreach ($columns->column as $column) {
+          //if a column is titled arrow, it generates a thinner column for display of arrows
           if ($column->title == "arrow") {
             print "<div class=\"column arrow-column\">";
+            //this iterates through each arrow in column
             foreach ($column->arr as $arr) {
+              //if arr named empty, uses its height for spacing
               if ($arr->name == "empty") {
                 print "<div style=\"height:{$arr->height}px;\" class=\"empty\"></div>";
               }
+              //this prints out the proper kind of arrow depending on its name
               switch($arr->name) {
                 case "left":
                   print "<div class=\"horizontal-arrow\">&larr;</div>";
@@ -45,19 +49,18 @@
             }
           }
           else {
-            //print "<div class=\"parent preprocess column-title\"><p>{$column->title}</p></div>";
-            print "<div class=\"column\">"; //child
+            print "<div class=\"column\">";
             foreach ($column->bubble as $bubble) {
               if($bubble->type == "empty") {
                 print "<div style=\"height:{$bubble->height}px;\" class=\"empty\"></div>";
               } else {
                 if($bubble->arrow) {
-                  print "<div id=\"{$bubble->name}\" class=\"bubble parent arrow-bubble {$bubble->type}\"><p>{$bubble->name}</p></div>";
+                  print "<div id=\"{$bubble->name}\" class=\"bubble arrow-bubble {$bubble->type}\"><p>{$bubble->name}</p></div>";
                 } else {
-                  print "<div id=\"{$bubble->name}\" class=\"bubble parent {$bubble->type}\"><p>{$bubble->name}</p></div>";
+                  print "<div id=\"{$bubble->name}\" class=\"bubble {$bubble->type}\"><p>{$bubble->name}</p></div>";
                 }
                 if ($bubble->type != "default") {
-                  print "<div class=\"child baby contents\">{$bubble->text}</div>";
+                  print "<div class=\"contents\">{$bubble->text}</div>";
                 }
                 switch($bubble->arrow) {
                   case "up":
@@ -77,13 +80,38 @@
         }
       ?>
     </div>
+    <div class="dropdown">
+      <?php
+        $priorType = "";
+        $first = true;
+        print "<div>";
+        $columns = simplexml_load_file('test1.xml');
+        foreach ($columns->column as $column) {
+          if ($column->title != "arrow") {
+            foreach ($column->bubble as $bubble) {
+              if($bubble->type != "empty") {
+                if($priorType != $bubble->type) {
+                  print "</div><div class=\"parent bubble {$bubble->type} column-title\"><p>{$column->title}</p></div>";
+                  print "<div class=\"child\">";
+                }
+                print "<div id=\"{$bubble->name}\" class=\"bubble parent {$bubble->type}\"><p>{$bubble->name}</p></div>";
+                if ($bubble->type != "default") {
+                  print "<div class=\"child contents\">{$bubble->text}</div>";
+                }
+                $priorType = (string)$bubble->type;
+              }
+            }
+          }
+        }
+        print "</div>";
+      ?>
+    </div>
   </div>
 </body>
 <script type="text/javascript">
   <?php
-
-
   $columns = simplexml_load_file('test1.xml');
+  //this adds functionality to each bubble such that if you click it, text changes
   foreach ($columns->column as $column) {
     foreach ($column->bubble as $bubble) {
       if ($bubble->type != "empty" && $bubble->type != "default") {
@@ -96,6 +124,7 @@
   ?>
 
   var previousBubble;
+  //function called above that changes the text of the information div
   function changeText(title, description) {
     document.getElementById("info").innerHTML = "<h1>" + title  + "</h1><p>" + description + "</p>";
 
@@ -106,29 +135,14 @@
     previousBubble = title;
   }
 
-$(document).ready(function()
-{
-  //hide the all of the element with class contents
-  if ($(document).width() < 900) {
+  //this functions as to create slideToggle functionality when in mobile view
+  $(document).ready(function() {
+    //hide the all of the element with class contents
     $(".child").hide();
-  }
-  $(".baby").hide();
-
-  //toggle the componenet with class bubble
-  $(".parent").click(function() {
-    if ($(document).width() < 900) {
+    //toggle the componenet with class bubble
+    $(".parent").click(function() {
       $(this).next(".child").slideToggle(600);
-    }
+    });
   });
-});
-
-//reshows proper elements on resize
-$(window).resize(function()
-{
-  if ($(document).width() > 900) {
-    $(".child").show();
-    $(".baby").hide();
-  }
-});
 </script>
 </html>
