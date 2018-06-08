@@ -36,7 +36,7 @@
      <bubble>
         <name>Select Location</name>
         <type>preprocess</type>
-        <text>Commonly referred to as the \’golden rule\’ of real estate, \"Location, Location, Location\" is an important saying because it\’s true–finding the right location for your home or real estate investment can be the most important part of the home-buying process. &lt;br&gt; &lt;br&gt; &lt;a href=\"https://lawdecoder.com/important-factors-in-choosing-location/\"&gt;Click here for some important factors in choosing the right home location!&lt;/a&gt;</text>
+        <text>Commonly referred to as the ‘golden rule’ of real estate, “Location, Location, Location” is an important saying because it’s true–finding the right location for your home or real estate investment can be the most important part of the home-buying process. &lt;br&gt; &lt;br&gt; &lt;a href=\"https://lawdecoder.com/important-factors-in-choosing-location/\"&gt;Click here for some important factors in choosing the right home location!&lt;/a&gt;</text>
      </bubble>
   </column>
   <column>
@@ -68,7 +68,7 @@
     <title>arrow</title>
     <arr>
       <name>empty</name>
-      <height>160</height>
+      <height>125</height>
     </arr>
     <arr>
       <name>SW</name>
@@ -96,7 +96,7 @@
      <bubble>
         <name>Counter Offer(s)</name>
         <type>offerprocess</type>
-        <text>After submitting an offer, you may receive back a rejection of the offer, an acceptance of the offer, or a counter offer. Although counter offers are referred to differently than an ’offer’, they are essentially the same concept, except this time the owner of the home is making the prospective buyer an offer to purchase the house with given conditions and price.</text>
+        <text>After submitting an offer, you may receive back a rejection of the offer, an acceptance of the offer, or a counter offer. Although counter offers are referred to differently than an ‘offer’, they are essentially the same concept, except this time the owner of the home is making the prospective buyer an offer to purchase the house with given conditions and price.</text>
         <arrow>up</arrow>
      </bubble>
      <bubble>
@@ -137,17 +137,17 @@
      <bubble>
         <name>Hazard Insurance</name>
         <type>postprocess</type>
-        <text>Hazard insurance, a coverage within the typical homeowners insurance package, covers possible \"hazards\" like fire damage, hail damage, vandalism, theft, and more. Hazard insurance does not cover damages that arise from guests you allow in your home. Many and most lenders require you to obtain hazard insurance in order to issue you a loan, because only this specific feature of homeowners insurance directly relates to the structure of the home.</text>
+        <text>Hazard insurance, a coverage within the typical homeowners insurance package, covers possible “hazards” like fire damage, hail damage, vandalism, theft, and more. Hazard insurance does not cover damages that arise from guests you allow in your home. Many and most lenders require you to obtain hazard insurance in order to issue you a loan, because only this specific feature of homeowners insurance directly relates to the structure of the home.</text>
      </bubble>
      <bubble>
         <name>Set Time and Place of Closing</name>
         <type>postprocess</type>
-        <text>The date of a Closing can vary from 45-60 days or more, and once the closing is approved, the meeting is usually held at the title company\’s office or an attorney\’s office.</text>
+        <text>The date of a Closing can vary from 45-60 days or more, and once the closing is approved, the meeting is usually held at the title company’s office or an attorney’s office.</text>
      </bubble>
      <bubble>
         <name>Mortgage Approval</name>
         <type>postprocess</type>
-        <text>If the mortgage underwriter is content that the buyer and the home being purchased meets all guidelines and requirements, he or she will label it \"clear to close\". This allows for the loan to be funded and is the final step in the mortgage approval process.</text>
+        <text>If the mortgage underwriter is content that the buyer and the home being purchased meets all guidelines and requirements, he or she will label it “clear to close”. This allows for the loan to be funded and is the final step in the mortgage approval process.</text>
      </bubble>
   </column>
 </columns>

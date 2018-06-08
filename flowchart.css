@@ -11,6 +11,14 @@ p {
   font-family: Verdana, sans-serif;
 }
 
+#outer {
+  white-space: nowrap;
+  display: block;
+  width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .information {
   background-color: lightgray;
   width: 300px;
@@ -18,13 +26,21 @@ p {
   padding: 10px;
   color: #006666;
   float: left;
+  display: inline-block;
+  white-space: normal;
+}
+
+.flowchart {
+  display: inline-block;
 }
 
 .column {
-  float: left;
   padding: 20px;
   padding-left: 10px;
   padding-right: 10px;
+  display: inline-block;
+  white-space: normal;
+  height: 500px;
 }
 
 .column-title {
@@ -34,6 +50,7 @@ p {
 .arrow-column {
   padding: 0px;
   margin:auto;
+  display: inline-block;
 }
 
 .bubble {
@@ -74,12 +91,15 @@ p {
 }
 .preprocess {
   background-color: #006666;
+  cursor: pointer;
 }
 .offerprocess {
   background-color: #00dddd;
+  cursor: pointer;
 }
 .postprocess {
   background-color: #440044;
+  cursor: pointer;
 }
 .selected {
   filter: grayscale(90%);
@@ -93,10 +113,19 @@ p {
 }
 
 .vertical-arrow {
-  text-align: center;
+  width: 120px;
   font-size: 300%;
   line-height: 32px;
   margin:0px;
+  display: table;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.vertical-arrow p {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
 }
 
 .horizontal-arrow {
@@ -104,6 +133,7 @@ p {
   font-size: 300%;
   margin:0px;
   line-height:50px;
+  display: table;
 }
 
 .contents {
@@ -113,9 +143,13 @@ p {
   display: none;
 }
 
-
 /* CSS changes on smaller screens */
 @media only screen and (max-width: 900px) {
+  #outer {
+    white-space: normal;
+    display: block;
+    margin: auto 0px;
+  }
   body {
       background-color: white;
   }
@@ -155,26 +189,10 @@ p {
     display: none;
   }
 
-  .column {
-      float: none;
-      padding: 0px;
-  }
-
-  .empty {
-    display: none;
-  }
-
-  .vertical-arrow {
-    display: none;
-  }
-
-  .horizontal-arrow {
-    display: none;
-  }
-
   .flowchart {
     display: none;
   }
+
   .dropdown {
     display: inline;
   }

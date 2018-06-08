@@ -6,7 +6,7 @@
 </head>
 <!--TODO: comment this code it's incredibly messy right now-->
 <body>
-  <div>
+  <div id="outer">
     <div id="info" class="information">
       <h1>Housing Flowchart</h1>
       <p>These are the steps necessary for buying a house. Click on any step for additional details!</p>
@@ -64,7 +64,7 @@
                 }
                 switch($bubble->arrow) {
                   case "up":
-                    print "<div class=\"vertical-arrow\">&uarr;</div>";
+                    print "<div class=\"vertical-arrow\"><p>&uarr;</p></div>";
                     break;
                   case "down":
                     print "<div class=\"vertical-arrow\">&darr;</div>";
@@ -106,7 +106,7 @@
         print "</div>";
       ?>
     </div>
-  </div>
+</div>
 </body>
 <script type="text/javascript">
   <?php
