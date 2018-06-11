@@ -57,7 +57,7 @@ p {
   border-radius: 25px;
   width: 120px;
   height: 80px;
-  background-color: #00dddd;
+  background-color: #50C6DC;
   color: white;
   margin-bottom: 15px;
   margin-top: 4px;
@@ -90,22 +90,22 @@ p {
   color: black;
 }
 .preprocess {
-  background-color: #006666;
+  background-color: #00AEA0;
   cursor: pointer;
 }
 .offerprocess {
-  background-color: #00dddd;
+  background-color: #50C6DC;
   cursor: pointer;
 }
 .postprocess {
-  background-color: #440044;
+  background-color: #623090;
   cursor: pointer;
 }
 .selected {
-  filter: grayscale(90%);
+  background-color: gray;
 }
 .selected:hover {
-  filter: grayscale(90%);
+  filter: opacity(100%);
 }
 
 .arrow-bubble {
@@ -149,6 +149,7 @@ p {
     white-space: normal;
     display: block;
     margin: auto 0px;
+    width:100%;
   }
   body {
       background-color: white;

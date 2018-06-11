@@ -12,8 +12,7 @@
       <p>These are the steps necessary for buying a house. Click on any step for additional details!</p>
     </div>
     <div class="flowchart">
-      <!--This php takes in an xml file, and using its information, generates a flowchart -->
-      <?php
+      <?php //This php takes in an xml file, and using its information, generates a flowchart
         $columns = simplexml_load_file('test1.xml');
         foreach ($columns->column as $column) {
           //if a column is titled arrow, it generates a thinner column for display of arrows
@@ -112,6 +111,7 @@
   <?php
   $columns = simplexml_load_file('test1.xml');
   //this adds functionality to each bubble such that if you click it, text changes
+  //I CAN PROBABLY USE JQUERY TO MAKE THIS NOT STUPID!!!!
   foreach ($columns->column as $column) {
     foreach ($column->bubble as $bubble) {
       if ($bubble->type != "empty" && $bubble->type != "default") {
@@ -124,6 +124,7 @@
   ?>
 
   var previousBubble;
+  //TODO: change to use jquery
   //function called above that changes the text of the information div
   function changeText(title, description) {
     document.getElementById("info").innerHTML = "<h1>" + title  + "</h1><p>" + description + "</p>";
