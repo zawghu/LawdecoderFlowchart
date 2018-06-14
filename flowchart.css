@@ -22,7 +22,7 @@ p {
 .information {
   background-color: lightgray;
   width: 300px;
-  height: 500px;
+  height: 650px;
   padding: 10px;
   color: #006666;
   float: left;
@@ -36,11 +36,11 @@ p {
 
 .column {
   padding: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
   display: inline-block;
   white-space: normal;
-  height: 500px;
+  height: 650px;
 }
 
 .column-title {
@@ -55,7 +55,7 @@ p {
 
 .bubble {
   border-radius: 25px;
-  width: 120px;
+  width: 140px;
   height: 80px;
   background-color: #50C6DC;
   color: white;
@@ -86,9 +86,6 @@ p {
   filter: opacity(100%);
 }
 
-.default p {
-  color: black;
-}
 .preprocess {
   background-color: #00AEA0;
   cursor: pointer;

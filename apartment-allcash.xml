@@ -8,30 +8,31 @@
      </bubble>
      <bubble>
         <name>Home Buyer</name>
-        <type>default</type>
+        <type>offerprocess</type>
+        <text>These are the steps necessary for buying a house. Click on any step for additional details!</text>
      </bubble>
      <bubble>
         <name>Agent</name>
-        <type>default</type>
+        <type>offerprocess</type>
+        <text>For a detailed look into types of agents, &lt;a href=\"https://lawdecoder.com/agent-table/\"&gt;click here!&lt;/a&gt;</text>
      </bubble>
   </column>
   <column>
     <title>Preprocess</title>
+    <bubble>
+       <name>empty</name>
+       <type>empty</type>
+       <height>65</height>
+    </bubble>
      <bubble>
-        <name>Applications for Mortgage Pre-Approval</name>
+        <name>Determine&lt;br&gt;Needs and Desires</name>
+        <text>Discovering your needs and desires in a real estate experience can be difficult, yet also dynamic. In many cases, the needs of homebuyers become desires; most areas of real estate are negotiable and that’s a good thing. For example, many homebuyers looking for single-family homes in high-performing school districts are able to move into an adjacent district and apply for enter into their targeted school district. While it is not guaranteed that one’s application will be approved, it is worth noting that many things in real estate are negotiable – even location!</text>
         <type>preprocess</type>
-        <text>What a Mortgage company needs: &lt;br&gt; 1. Personal Information &lt;br&gt; 2. Desired Location &lt;br&gt; 3. Income Information &lt;br&gt; 4. Wealth: Assets and Debts &lt;br&gt;</text>
-        <arrow>updown</arrow>
      </bubble>
      <bubble>
         <name>Determine Budget</name>
         <type>preprocess</type>
         <text>There are many ways of setting a budget for a single-family home. One such method outlined by Dave Ramsey describes a 5-step process that makes sure you do not exhaust your finances when purchasing a home. &lt;br&gt; &lt;br&gt; &lt;a href=\"https://lawdecoder.com/5-step-process-for-budgeting-home-purchase/\" target=\"_blank\" rel=\"noopener\"&gt;Click here for details on this process!&lt;/a&gt;</text>
-     </bubble>
-     <bubble>
-        <name>Determine&lt;br&gt;Needs and Desires</name>
-        <text>Discovering your needs and desires in a real estate experience can be difficult, yet also dynamic. In many cases, the needs of homebuyers become desires; most areas of real estate are negotiable and that’s a good thing. For example, many homebuyers looking for single-family homes in high-performing school districts are able to move into an adjacent district and apply for enter into their targeted school district. While it is not guaranteed that one’s application will be approved, it is worth noting that many things in real estate are negotiable – even location!</text>
-        <type>preprocess</type>
      </bubble>
      <bubble>
         <name>Select Location</name>
@@ -49,7 +50,7 @@
      <bubble>
         <name>Preview Homes</name>
         <type>offerprocess</type>
-        <text>When previewing homes, it is important to keep an eye out for certain things. These factors vary depending on the kind of home you are previewing.&lt;br&gt;&lt;br&gt;&lt;a href=\"https://lawdecoder.com/preview-homes/\"&gt;For more details, click here.&lt;/a&gt;</text>
+        <text>When previewing homes, it is important to keep an eye out for certain things:&lt;ul&gt;&lt;li&gt;Apartment ownership costs&lt;/li&gt;&lt;li&gt;Parking arrangements&lt;/li&gt;&lt;li&gt;Noise level&lt;/li&gt;&lt;li&gt;Waste disposal&lt;/li&gt;&lt;li&gt;Structure&lt;/li&gt;&lt;/ul&gt;</text>
      </bubble>
   </column>
   <column>
@@ -68,7 +69,7 @@
     <title>arrow</title>
     <arr>
       <name>empty</name>
-      <height>125</height>
+      <height>145</height>
     </arr>
     <arr>
       <name>SW</name>
@@ -97,7 +98,7 @@
         <name>Counter Offer(s)</name>
         <type>offerprocess</type>
         <text>After submitting an offer, you may receive back a rejection of the offer, an acceptance of the offer, or a counter offer. Although counter offers are referred to differently than an ‘offer’, they are essentially the same concept, except this time the owner of the home is making the prospective buyer an offer to purchase the house with given conditions and price.</text>
-        <arrow>up</arrow>
+        <arrow>down</arrow>
      </bubble>
      <bubble>
         <name>Acceptance of Offer</name>
@@ -106,7 +107,7 @@
         <arrow>down</arrow>
      </bubble>
      <bubble>
-        <name>Appraisal and Update Mortgage Application</name>
+        <name>Appraisal</name>
         <type>postprocess</type>
         <text>To obtain an appraisal, you must contact an accredited appraisal agent. An appraisal is conducted by a professional who evaluates a home through different processes and perspectives. Once the appraisal is complete, you can use this to satisfy the appraisal condition.</text>
      </bubble>
@@ -115,7 +116,7 @@
      <bubble>
         <name>empty</name>
         <type>empty</type>
-        <height>420</height>
+        <height>390</height>
      </bubble>
      <bubble>
         <name>Inspection</name>
@@ -124,6 +125,11 @@
      </bubble>
   </column>
   <column>
+    <bubble>
+       <name>empty</name>
+       <type>empty</type>
+       <height>100</height>
+    </bubble>
      <bubble>
         <name>Closing</name>
         <type>postprocess</type>
@@ -132,7 +138,7 @@
      <bubble>
         <name>Pre-Closing Inspection</name>
         <type>postprocess</type>
-        <text>This is an agreement between the two parties that officially accepts the buyer’s offer for the property and allows them to progress further in the process. The closing is the day when the buyer signs the mortgage documents and officially gains ownership of the property. During the closing, the buyer is required to bring a photo ID and a cashier’s check to cover the closing costs.</text>
+        <text>This is an agreement between the two parties that officially accepts the buyer’s offer for the property and allows them to progress further in the process. The closing is the day when the buyer signs the necessary documents and officially gains ownership of the property. During the closing, the buyer is required to bring a photo ID and a cashier’s check to cover the closing costs.</text>
      </bubble>
      <bubble>
         <name>Hazard Insurance</name>
@@ -143,11 +149,6 @@
         <name>Set Time and Place of Closing</name>
         <type>postprocess</type>
         <text>The date of a Closing can vary from 45-60 days or more, and once the closing is approved, the meeting is usually held at the title company’s office or an attorney’s office.</text>
-     </bubble>
-     <bubble>
-        <name>Mortgage Approval</name>
-        <type>postprocess</type>
-        <text>If the mortgage underwriter is content that the buyer and the home being purchased meets all guidelines and requirements, he or she will label it “clear to close”. This allows for the loan to be funded and is the final step in the mortgage approval process.</text>
      </bubble>
   </column>
 </columns>

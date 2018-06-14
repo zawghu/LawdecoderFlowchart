@@ -4,7 +4,6 @@
   <link rel="stylesheet" href="flowchart.css">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 </head>
-<!--TODO: comment this code it's incredibly messy right now-->
 <body>
   <div id="outer">
     <div id="info" class="information">
@@ -13,7 +12,7 @@
     </div>
     <div class="flowchart">
       <?php //This php takes in an xml file, and using its information, generates a flowchart
-        $columns = simplexml_load_file('test1.xml');
+        $columns = simplexml_load_file('selling.xml');
         foreach ($columns->column as $column) {
           //if a column is titled arrow, it generates a thinner column for display of arrows
           if ($column->title == "arrow") {
@@ -84,7 +83,7 @@
         $priorType = "";
         $first = true;
         print "<div>";
-        $columns = simplexml_load_file('test1.xml');
+        $columns = simplexml_load_file('selling.xml');
         foreach ($columns->column as $column) {
           if ($column->title != "arrow") {
             foreach ($column->bubble as $bubble) {
@@ -109,7 +108,7 @@
 </body>
 <script type="text/javascript">
   <?php
-  $columns = simplexml_load_file('test1.xml');
+  $columns = simplexml_load_file('selling.xml');
   //this adds functionality to each bubble such that if you click it, text changes
   //I CAN PROBABLY USE JQUERY TO MAKE THIS NOT STUPID!!!!
   foreach ($columns->column as $column) {

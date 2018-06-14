@@ -1,0 +1,155 @@
+<columns>
+  <column>
+     <title>Identity</title>
+     <bubble>
+        <name>empty</name>
+        <type>empty</type>
+        <height>120</height>
+     </bubble>
+     <bubble>
+        <name>Home Buyer</name>
+        <type>offerprocess</type>
+        <text>These are the steps necessary for buying a duplex/triplex. Click on any step for additional details!</text>
+     </bubble>
+     <bubble>
+        <name>Agent</name>
+        <type>offerprocess</type>
+        <text>For a detailed look into types of agents, &lt;a href=\"https://lawdecoder.com/agent-table/\"&gt;click here!&lt;/a&gt;</text>
+     </bubble>
+  </column>
+  <column>
+    <title>Preprocess</title>
+     <bubble>
+        <name>Applications for Mortgage Pre-Approval</name>
+        <type>preprocess</type>
+        <text>What a Mortgage company needs: &lt;br&gt; 1. Personal Information &lt;br&gt; 2. Desired Location &lt;br&gt; 3. Income Information &lt;br&gt; 4. Wealth: Assets and Debts &lt;br&gt;</text>
+        <arrow>updown</arrow>
+     </bubble>
+     <bubble>
+        <name>Determine Budget</name>
+        <type>preprocess</type>
+        <text>There are many ways of setting a budget for a single-family home. One such method outlined by Dave Ramsey describes a 5-step process that makes sure you do not exhaust your finances when purchasing a home. &lt;br&gt; &lt;br&gt; &lt;a href=\"https://lawdecoder.com/5-step-process-for-budgeting-home-purchase/\" target=\"_blank\" rel=\"noopener\"&gt;Click here for details on this process!&lt;/a&gt;</text>
+     </bubble>
+     <bubble>
+        <name>Determine&lt;br&gt;Needs and Desires</name>
+        <text>Discovering your needs and desires in a real estate experience can be difficult, yet also dynamic. In many cases, the needs of homebuyers become desires; most areas of real estate are negotiable and that’s a good thing. For example, many homebuyers looking for single-family homes in high-performing school districts are able to move into an adjacent district and apply for enter into their targeted school district. While it is not guaranteed that one’s application will be approved, it is worth noting that many things in real estate are negotiable – even location!</text>
+        <type>preprocess</type>
+     </bubble>
+     <bubble>
+        <name>Select Location</name>
+        <type>preprocess</type>
+        <text>Commonly referred to as the ‘golden rule’ of real estate, “Location, Location, Location” is an important saying because it’s true–finding the right location for your home or real estate investment can be the most important part of the home-buying process. In the case of buyers in search of a duplex/triplex, the meaning of the golden rule might need a different interpretation.&lt;/a&gt;</text>
+     </bubble>
+  </column>
+  <column>
+     <title>Offerprocess</title>
+     <bubble>
+        <name>empty</name>
+        <type>empty</type>
+        <height>170</height>
+     </bubble>
+     <bubble>
+        <name>Preview Homes</name>
+        <type>offerprocess</type>
+        <text>When previewing a duplex/triplex, it is important to keep an eye out for certain things.&lt;ul&gt;&lt;li&gt;Good cash flow&lt;/li&gt;&lt;li&gt;Second or third unit is legally permitted to be considered a “unit”&lt;/li&gt;&lt;li&gt;Primarily look at the cash flow (Income minus expenses)&lt;/li&gt;&lt;/ul&gt;</text>
+     </bubble>
+  </column>
+  <column>
+     <bubble>
+        <name>empty</name>
+        <type>empty</type>
+        <height>170</height>
+     </bubble>
+     <bubble>
+        <name>Offer</name>
+        <type>offerprocess</type>
+        <text>An Offer to Purchase Real Estate is a legal document that is used by someone who wishes to place a bid on a house or other private residence that is for sale. This document contains information regarding the property like a description of the property, the price that is being offered, the proposed closing/possession date, and other important information the potential buyer wishes to include. This offer becomes a legally binding agreement when it is signed by the buyer and the seller, and when the contained contingencies are met or completed. These offers can be submitted to the seller or the seller’s agent(s).&lt;br&gt;&lt;br&gt;&lt;a href=\"https://lawdecoder.com/contingencies-for-an-offer-to-purchase-real-estate/\"&gt;Click here for examples of some of these contingencies!&lt;/a&gt; </text>
+     </bubble>
+  </column>
+  <column>
+    <title>arrow</title>
+    <arr>
+      <name>empty</name>
+      <height>145</height>
+    </arr>
+    <arr>
+      <name>SW</name>
+    </arr>
+    <arr>
+      <name>right</name>
+    </arr>
+    <arr>
+      <name>SE</name>
+    </arr>
+  </column>
+  <column>
+    <title>Postprocess</title>
+    <bubble>
+       <name>a</name>
+       <type>empty</type>
+       <height>42</height>
+    </bubble>
+    <bubble>
+        <name>Offer Rejected</name>
+        <type>offerprocess</type>
+        <text>If you are rejected, the lender is supposed to provide you with reasons for your denial. One of the most common reasons for a denial is due to the condition of one\'s credit report. Your credit report determines the types of loans and rates you are eligible for, and denials can occur when there are errors with your credit or if it is in poor condition. If a lender denies you due to credit score, you can still seek loans from other lenders</text>
+        <arrow>up</arrow>
+    </bubble>
+     <bubble>
+        <name>Counter Offer(s)</name>
+        <type>offerprocess</type>
+        <text>After submitting an offer, you may receive back a rejection of the offer, an acceptance of the offer, or a counter offer. Although counter offers are referred to differently than an ‘offer’, they are essentially the same concept, except this time the owner of the home is making the prospective buyer an offer to purchase the house with given conditions and price.</text>
+        <arrow>up</arrow>
+     </bubble>
+     <bubble>
+        <name>Acceptance of Offer</name>
+        <type>offerprocess</type>
+        <text>Once the prospective buyer has found a property that they are interested in purchasing, an offer is made to the seller that states the conditions of the buyer. Negotiations often take place during this process and once the two parties are satisfied with the terms, the offer is signed by both parties and the closing process begins. The document being signed is called the “Agreement of Sale” and legally binds the two parties to the conditions.</text>
+        <arrow>down</arrow>
+     </bubble>
+     <bubble>
+        <name>Appraisal and Update Mortgage Application</name>
+        <type>postprocess</type>
+        <text>To obtain an appraisal, you must contact an accredited appraisal agent. An appraisal is conducted by a professional who evaluates a home through different processes and perspectives. Once the appraisal is complete, you can use this to satisfy the appraisal condition.</text>
+     </bubble>
+  </column>
+  <column>
+     <bubble>
+        <name>empty</name>
+        <type>empty</type>
+        <height>390</height>
+     </bubble>
+     <bubble>
+        <name>Inspection</name>
+        <type>postprocess</type>
+        <text>Lenders require inspections before purchasing a home and these usually occur around 10 days after the offer is accepted. Inspections allow for the buyer to assess the home for any concerns like pests, issues with the structure, electrical issues, mold, or problems with the water pressure. During the inspection, the homebuyer should follow the inspector and take notes of any problems to later get estimates for the issues you find. Sometimes after giving estimates for these issues, the price of the home can be lowered and save the buyer money. Inspections are also the responsibility of the homebuyer to pay for and often the lenders or real estate agents can offer referrals for the buyer.</text>
+     </bubble>
+  </column>
+  <column>
+     <bubble>
+        <name>Closing</name>
+        <type>postprocess</type>
+        <text>Prior to accepting a loan, the homebuyer should make sure that he or she has shopped around for other offers to ensure that they have picked the best fitting loan. Once you have found a loan, some lenders allow you to lock in the loan. Closing on a home can range from 40-65 days, if not longer, and locking in the loan at the right time can save you money if the interests rates increase during the closing period. During the closing period, loan documents will be sent to either the title company or attorney’s office where the closing meeting will take place. At this meeting, you will be required to sign documents to secure the home. &lt;br&gt; &lt;br&gt; &lt;a href=\"https://lawdecoder.com/housing-closing-documents/\"&gt;Click here for additional details about these documents.&lt;/a&gt;</text>
+     </bubble>
+     <bubble>
+        <name>Pre-Closing Inspection</name>
+        <type>postprocess</type>
+        <text>This is an agreement between the two parties that officially accepts the buyer’s offer for the property and allows them to progress further in the process. The closing is the day when the buyer signs the mortgage documents and officially gains ownership of the property. During the closing, the buyer is required to bring a photo ID and a cashier’s check to cover the closing costs.</text>
+     </bubble>
+     <bubble>
+        <name>Hazard Insurance</name>
+        <type>postprocess</type>
+        <text>Hazard insurance, a coverage within the typical homeowners insurance package, covers possible “hazards” like fire damage, hail damage, vandalism, theft, and more. Hazard insurance does not cover damages that arise from guests you allow in your home. Many and most lenders require you to obtain hazard insurance in order to issue you a loan, because only this specific feature of homeowners insurance directly relates to the structure of the home.</text>
+     </bubble>
+     <bubble>
+        <name>Set Time and Place of Closing</name>
+        <type>postprocess</type>
+        <text>The date of a Closing can vary from 45-60 days or more, and once the closing is approved, the meeting is usually held at the title company’s office or an attorney’s office.</text>
+     </bubble>
+     <bubble>
+        <name>Mortgage Approval</name>
+        <type>postprocess</type>
+        <text>If the mortgage underwriter is content that the buyer and the home being purchased meets all guidelines and requirements, he or she will label it “clear to close”. This allows for the loan to be funded and is the final step in the mortgage approval process.</text>
+     </bubble>
+  </column>
+</columns>
