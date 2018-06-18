@@ -1,29 +1,37 @@
 <columns>
   <column>
-    <title>Preprocess</title>
+    <title>defaulttext</title>
+    <bubble>
+      <name>Flowchart for Selling a House</name>
+      <type>information</type>
+      <text>These are the steps for selling a house! Click on any step in the process for further details.</text>
+    </bubble>
+  </column>
+  <column>
+    <title>Pre-process</title>
+    <bubble>
+       <name>empty</name>
+       <type>empty</type>
+       <height>80</height>
+    </bubble>
      <bubble>
         <name>Ability to Sell</name>
-        <text>f</text>
-        <type>offerprocess</type>
-     </bubble>
-     <bubble>
-        <name>Realtor</name>
-        <type>offerprocess</type>
-        <text>f</text>
-     </bubble>
-     <bubble>
-        <name>Set Price / Provide Inspections</name>
+        <text>By Owner: If you are choosing to sell your home or property without an agent, you should consider the following things:&lt;ol&gt;&lt;li&gt;Choose a price&lt;/li&gt;&lt;li&gt;Estimate your costs to sell&lt;/li&gt;&lt;li&gt;List your home online&lt;/li&gt;&lt;li&gt;Prepare and Stage&lt;/li&gt;&lt;li&gt;Be available for potential buyers&lt;/li&gt;&lt;li&gt;Wait for an offer/lower the price&lt;/li&gt;&lt;li&gt;Hire an Attorney&lt;/li&gt;&lt;li&gt;Close the sale&lt;/li&gt;&lt;/ol&gt;More information can be found &lt;a href=\&quot;https://lawdecoder.com/ability-to-sell/\&quot;&gt;here&lt;/a&gt;!</text>
         <type>preprocess</type>
-        <text>f</text>
+     </bubble>
+     <bubble>
+        <name>Set Price</name>
+        <type>preprocess</type>
+        <text>Setting a price is one of the most important parts of selling your home. You must be careful not to overprice your home because buyers will lose interest and you will prolong the selling process. It’s better to err on the side of underpricing your home because a low price will attract a lot of offers which will then drive up the price. When deciding on the perfect price of your home, you should research similar, nearby homes (within a half mile) and figure out their original listing price, how much the house sold for, and how long it was on the market. This process is also referred to as Comparative Market Analysis. Make sure you also pay attention to township divisions, property lines, and any other aspects that might affect the price of nearby homes.</text>
      </bubble>
      <bubble>
         <name>List and Market</name>
         <type>preprocess</type>
-        <text>f</text>
+        <text>The two goals when listing and marketing your home is to present your home to be as attractive to the buyer as possible and to reach a large audience of potential buyers. Some easy steps are to:&lt;ul&gt;&lt;li&gt;Put up an attractive yard sign&lt;/li&gt;&lt;li&gt;Hand out flyers and brochures with information about your home&lt;/li&gt;&lt;li&gt;Post many online (or newspaper) advertisements to reach a large audience&lt;/li&gt;&lt;li&gt;Host an open house&lt;/li&gt;&lt;/ul&gt;Remember to set a reasonable price based on your home’s market value (see Set Price)</text>
      </bubble>
   </column>
   <column>
-     <title>Preprocess</title>
+     <title>Pre-process</title>
      <bubble>
         <name>empty</name>
         <type>empty</type>
@@ -32,7 +40,7 @@
      <bubble>
         <name>Prepare Paperwork</name>
         <type>preprocess</type>
-        <text>f</text>
+        <text>Documents you will need to sell your home:&lt;ul&gt;&lt;li&gt;Mortgage loan information&lt;/li&gt;&lt;li&gt;Final purchase and sale agreement&lt;/li&gt;&lt;li&gt;Deed&lt;/li&gt;&lt;li&gt;Title&lt;/li&gt;&lt;li&gt;report&lt;/li&gt;&lt;li&gt;Property tax information, including most recent tax statement&lt;/li&gt;&lt;li&gt;Homeowners insurance information&lt;/li&gt;&lt;li&gt;Any reports or documentation that relates to the property&lt;/li&gt;&lt;li&gt;Lease agreement, if currently renting the property to a tenant&lt;/li&gt;&lt;/ul&gt;Once you've found a buyer for your home you must transfer the deed to the new owner(s). This process should be handled by your attorney who should help you with all other closing documents.</text>
      </bubble>
   </column>
   <column>
@@ -65,7 +73,7 @@
     </arr>
   </column>
   <column>
-    <title>Postprocess</title>
+    <title>Post-process</title>
     <bubble>
        <name>a</name>
        <type>empty</type>
@@ -74,7 +82,7 @@
     <bubble>
         <name>Offer Rejected</name>
         <type>offerprocess</type>
-        <text>If you are rejected, the lender is supposed to provide you with reasons for your denial. One of the most common reasons for a denial is due to the condition of one\'s credit report. Your credit report determines the types of loans and rates you are eligible for, and denials can occur when there are errors with your credit or if it is in poor condition. If a lender denies you due to credit score, you can still seek loans from other lenders</text>
+        <text>If you are rejected, the lender is supposed to provide you with reasons for your denial. One of the most common reasons for a denial is due to the condition of one's credit report. Your credit report determines the types of loans and rates you are eligible for, and denials can occur when there are errors with your credit or if it is in poor condition. If a lender denies you due to credit score, you can still seek loans from other lenders. Other common reasons for denial us due to the amount of debt a person owes or their debt-to-income ratio. Things like credit card payments, student loans, and auto payments all could play a part in a denial if these subjects are in poor condition and if these things accumulate more costs than the income you make.</text>
         <arrow>up</arrow>
     </bubble>
      <bubble>
@@ -90,7 +98,7 @@
      </bubble>
   </column>
   <column>
-     <title>Postprocess</title>
+     <title>Post-process</title>
      <bubble>
         <name>empty</name>
         <type>empty</type>
@@ -123,7 +131,7 @@
      <bubble>
         <name>Pre-Closing Agreement</name>
         <type>postprocess</type>
-        <text>  This is an agreement between the two parties that officially accepts the buyer’s offer for the property and allows them to progress further in the process. The following tasks must be completed before the official closing date: &lt;ul&gt;&lt;li&gt;Complete a home inspection&lt;/li&gt;&lt;li&gt;Acquire homeowner’s insurance&lt;/li&gt;&lt;li&gt;Order a Termite Clearance Letter (these are no longer required, but are still recommended)&lt;/li&gt;&lt;li&gt;Determine if you would like a radon inspection and order it from the home inspector&lt;/li&gt;&lt;li&gt;Provide your lender with a copy of the contract and discuss locking in your interest rate (Buyer’s usually have 5-days from the date of the contract to apply for the mortgage loan, which is why it’s important to be pre-approved before you start looking for a home)&lt;/li&gt;&lt;/ul&gt;</text>
+        <text>This is an agreement between the two parties that officially accepts the buyer’s offer for the property and allows them to progress further in the process. The following tasks must be completed before the official closing date: &lt;ul&gt;&lt;li&gt;Complete a home inspection&lt;/li&gt;&lt;li&gt;Acquire homeowner’s insurance&lt;/li&gt;&lt;li&gt;Order a Termite Clearance Letter (these are no longer required, but are still recommended)&lt;/li&gt;&lt;li&gt;Determine if you would like a radon inspection and order it from the home inspector&lt;/li&gt;&lt;li&gt;Provide your lender with a copy of the contract and discuss locking in your interest rate (Buyer’s usually have 5-days from the date of the contract to apply for the mortgage loan, which is why it’s important to be pre-approved before you start looking for a home)&lt;/li&gt;&lt;/ul&gt;</text>
      </bubble>
      <bubble>
         <name>Hazard Insurance</name>

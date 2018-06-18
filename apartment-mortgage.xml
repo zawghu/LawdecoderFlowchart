@@ -18,7 +18,7 @@
      </bubble>
   </column>
   <column>
-    <title>Preprocess</title>
+    <title>Pre-process</title>
      <bubble>
         <name>Applications for Mortgage Pre-Approval</name>
         <type>preprocess</type>
@@ -42,7 +42,7 @@
      </bubble>
   </column>
   <column>
-     <title>Offerprocess</title>
+     <title>Offer Process</title>
      <bubble>
         <name>empty</name>
         <type>empty</type>
@@ -83,7 +83,7 @@
     </arr>
   </column>
   <column>
-    <title>Postprocess</title>
+    <title>Post-process</title>
     <bubble>
        <name>a</name>
        <type>empty</type>

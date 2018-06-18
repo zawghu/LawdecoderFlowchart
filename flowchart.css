@@ -1,14 +1,11 @@
 body {
     background-color: white;
+    font-family: Verdana, sans-serif
 }
 
 h1 {
     color: #440044;
     text-align: center;
-}
-
-p {
-  font-family: Verdana, sans-serif;
 }
 
 #outer {
@@ -17,16 +14,17 @@ p {
   width: 1360px;
   margin-left: auto;
   margin-right: auto;
+  zoom: 0.7;
 }
 
 .information {
   background-color: lightgray;
-  width: 300px;
+  width: 20%;
   height: 650px;
   padding: 10px;
   color: #006666;
   float: left;
-  display: inline-block;
+  display: block;
   white-space: normal;
 }
 
@@ -136,6 +134,11 @@ p {
 .contents {
   display: none;
 }
+
+.name {
+  display: none;
+}
+
 .dropdown {
   display: none;
 }
@@ -147,6 +150,7 @@ p {
     display: block;
     margin: auto 0px;
     width:100%;
+    zoom:1;
   }
   body {
       background-color: white;

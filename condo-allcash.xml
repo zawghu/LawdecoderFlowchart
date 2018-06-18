@@ -1,5 +1,13 @@
 <columns>
   <column>
+    <title>defaulttext</title>
+    <bubble>
+      <name>Flowchart for Buying a Condo</name>
+      <type>information</type>
+      <text>These are the steps for buying a condo cash only! Click on any step in the process for further details.</text>
+    </bubble>
+  </column>
+  <column>
      <title>Identity</title>
      <bubble>
         <name>empty</name>
@@ -18,7 +26,7 @@
      </bubble>
   </column>
   <column>
-    <title>Preprocess</title>
+    <title>Pre-process</title>
     <bubble>
        <name>empty</name>
        <type>empty</type>
@@ -41,7 +49,7 @@
      </bubble>
   </column>
   <column>
-     <title>Offerprocess</title>
+     <title>Offer Process</title>
      <bubble>
         <name>empty</name>
         <type>empty</type>
@@ -82,7 +90,7 @@
     </arr>
   </column>
   <column>
-    <title>Postprocess</title>
+    <title>Post-process</title>
     <bubble>
        <name>a</name>
        <type>empty</type>
