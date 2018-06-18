@@ -1,5 +1,13 @@
 <columns>
   <column>
+    <title>defaulttext</title>
+    <bubble>
+      <name>Flowchart for Buying an Apartment</name>
+      <type>information</type>
+      <text>These are the steps for buying an apartment with a mortgage! Click on any step in the process for further details.</text>
+    </bubble>
+  </column>
+  <column>
      <title>Identity</title>
      <bubble>
         <name>empty</name>
@@ -9,7 +17,7 @@
      <bubble>
         <name>Home Buyer</name>
         <type>offerprocess</type>
-        <text>These are the steps necessary for buying a house. Click on any step for additional details!</text>
+        <text>These are the steps for buying an apartment with a mortgage! Click on any step in the process for further details.</text>
      </bubble>
      <bubble>
         <name>Agent</name>

@@ -17,12 +17,12 @@
      <bubble>
         <name>Home Buyer</name>
         <type>offerprocess</type>
-        <text>These are the steps necessary for buying a condo. Click on any step for additional details!</text>
+        <text>These are the steps for buying a condo with a mortgage! Click on any step in the process for further details.</text>
      </bubble>
      <bubble>
         <name>Agent</name>
         <type>offerprocess</type>
-        <text>For a detailed look into types of agents, &lt;a href=\"https://lawdecoder.com/agent-table/\"&gt;click here!&lt;/a&gt;</text>
+        <text>For a detailed look into types of agents, &lt;a href="https://lawdecoder.com/agent-table/"&gt;click here!&lt;/a&gt;</text>
      </bubble>
   </column>
   <column>
@@ -36,7 +36,7 @@
      <bubble>
         <name>Determine Budget</name>
         <type>preprocess</type>
-        <text>There are many ways of setting a budget for a single-family home. One such method outlined by Dave Ramsey describes a 5-step process that makes sure you do not exhaust your finances when purchasing a home. &lt;br&gt; &lt;br&gt; &lt;a href=\"https://lawdecoder.com/5-step-process-for-budgeting-home-purchase/\" target=\"_blank\" rel=\"noopener\"&gt;Click here for details on this process!&lt;/a&gt;</text>
+        <text>There are many ways of setting a budget for a single-family home. One such method outlined by Dave Ramsey describes a 5-step process that makes sure you do not exhaust your finances when purchasing a home. &lt;br&gt; &lt;br&gt; &lt;a href="https://lawdecoder.com/5-step-process-for-budgeting-home-purchase/" target="_blank" rel="noopener"&gt;Click here for details on this process!&lt;/a&gt;</text>
      </bubble>
      <bubble>
         <name>Determine&lt;br&gt;Needs and Desires</name>
@@ -46,7 +46,7 @@
      <bubble>
         <name>Select Location</name>
         <type>preprocess</type>
-        <text>Commonly referred to as the ‘golden rule’ of real estate, “Location, Location, Location” is an important saying because it’s true–finding the right location for your home or real estate investment can be the most important part of the home-buying process. &lt;br&gt; &lt;br&gt; &lt;a href=\"https://lawdecoder.com/important-factors-in-choosing-location/\"&gt;Click here for some important factors in choosing the right home location!&lt;/a&gt;</text>
+        <text>Commonly referred to as the ‘golden rule’ of real estate, “Location, Location, Location” is an important saying because it’s true–finding the right location for your home or real estate investment can be the most important part of the home-buying process. &lt;br&gt; &lt;br&gt; &lt;a href="https://lawdecoder.com/important-factors-in-choosing-location/"&gt;Click here for some important factors in choosing the right home location!&lt;/a&gt;</text>
      </bubble>
   </column>
   <column>
@@ -71,7 +71,7 @@
      <bubble>
         <name>Offer</name>
         <type>offerprocess</type>
-        <text>An Offer to Purchase Real Estate is a legal document that is used by someone who wishes to place a bid on a house or other private residence that is for sale. This document contains information regarding the property like a description of the property, the price that is being offered, the proposed closing/possession date, and other important information the potential buyer wishes to include. This offer becomes a legally binding agreement when it is signed by the buyer and the seller, and when the contained contingencies are met or completed. These offers can be submitted to the seller or the seller’s agent(s).&lt;br&gt;&lt;br&gt;&lt;a href=\"https://lawdecoder.com/contingencies-for-an-offer-to-purchase-real-estate/\"&gt;Click here for examples of some of these contingencies!&lt;/a&gt; </text>
+        <text>An Offer to Purchase Real Estate is a legal document that is used by someone who wishes to place a bid on a house or other private residence that is for sale. This document contains information regarding the property like a description of the property, the price that is being offered, the proposed closing/possession date, and other important information the potential buyer wishes to include. This offer becomes a legally binding agreement when it is signed by the buyer and the seller, and when the contained contingencies are met or completed. These offers can be submitted to the seller or the seller’s agent(s).&lt;br&gt;&lt;br&gt;&lt;a href="https://lawdecoder.com/contingencies-for-an-offer-to-purchase-real-estate/"&gt;Click here for examples of some of these contingencies!&lt;/a&gt; </text>
      </bubble>
   </column>
   <column>
@@ -137,7 +137,7 @@
      <bubble>
         <name>Closing</name>
         <type>postprocess</type>
-        <text>Prior to accepting a loan, the homebuyer should make sure that he or she has shopped around for other offers to ensure that they have picked the best fitting loan. Once you have found a loan, some lenders allow you to lock in the loan. Closing on a home can range from 40-65 days, if not longer, and locking in the loan at the right time can save you money if the interests rates increase during the closing period. During the closing period, loan documents will be sent to either the title company or attorney’s office where the closing meeting will take place. At this meeting, you will be required to sign documents to secure the home. &lt;br&gt; &lt;br&gt; &lt;a href=\"https://lawdecoder.com/housing-closing-documents/\"&gt;Click here for additional details about these documents.&lt;/a&gt;</text>
+        <text>Prior to accepting a loan, the homebuyer should make sure that he or she has shopped around for other offers to ensure that they have picked the best fitting loan. Once you have found a loan, some lenders allow you to lock in the loan. Closing on a home can range from 40-65 days, if not longer, and locking in the loan at the right time can save you money if the interests rates increase during the closing period. During the closing period, loan documents will be sent to either the title company or attorney’s office where the closing meeting will take place. At this meeting, you will be required to sign documents to secure the home. &lt;br&gt; &lt;br&gt; &lt;a href="https://lawdecoder.com/housing-closing-documents/"&gt;Click here for additional details about these documents.&lt;/a&gt;</text>
      </bubble>
      <bubble>
         <name>Pre-Closing Inspection</name>

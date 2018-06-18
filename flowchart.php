@@ -7,7 +7,7 @@
 <body>
   <div id="outer">
     <?php //This php takes in an xml file, and using its information, generates a flowchart
-    $columns = simplexml_load_file('selling.xml');
+    $columns = simplexml_load_file('condo-allcash.xml');
     foreach ($columns->column as $column) {
       if ($column->title == "defaulttext") {
         print "<div id=\"info\" class=\"{$column->bubble->type}\"><h1>{$column->bubble->name}</h1><p>{$column->bubble->text}</p></div>";
@@ -84,7 +84,7 @@
       $priorType = "";
       $first = true;
       print "<div>";
-      $columns = simplexml_load_file('selling.xml');
+      $columns = simplexml_load_file('condo-allcash.xml');
       foreach ($columns->column as $column) {
         if ($column->title != "arrow" && $column->title != "default") {
           foreach ($column->bubble as $bubble) {
@@ -105,7 +105,6 @@
       print "</div>";
     ?>
   </div>
-</div>
 </body>
 <script type="text/javascript">
   $(document).ready(function() {
