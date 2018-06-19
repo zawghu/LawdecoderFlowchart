@@ -7,7 +7,7 @@
 <body>
   <div id="outer">
     <?php //This php takes in an xml file, and using its information, generates a flowchart
-    $columns = simplexml_load_file('condo-allcash.xml');
+    $columns = simplexml_load_file('selling.xml');
     foreach ($columns->column as $column) {
       if ($column->title == "defaulttext") {
         print "<div id=\"info\" class=\"{$column->bubble->type}\"><h1>{$column->bubble->name}</h1><p>{$column->bubble->text}</p></div>";
@@ -84,7 +84,7 @@
       $priorType = "";
       $first = true;
       print "<div>";
-      $columns = simplexml_load_file('condo-allcash.xml');
+      $columns = simplexml_load_file('selling.xml');
       foreach ($columns->column as $column) {
         if ($column->title != "arrow" && $column->title != "default") {
           foreach ($column->bubble as $bubble) {
@@ -107,9 +107,9 @@
   </div>
 </body>
 <script type="text/javascript">
-  $(document).ready(function() {
+  $(document).ready(() => {
     //desktop interactivity
-    $('.bubble').click(function() {
+    $('.bubble').on('click', event => {
       if ($(event.currentTarget).next().hasClass("name")) {
         $('.bubble').removeClass('selected');
         $(event.currentTarget).addClass('selected');
@@ -121,14 +121,20 @@
     //mobile interactivity
     $(".child").hide();
     //toggle the componenet with class bubble
-    $(".parent").click(function() {
-      $(this).next(".child").slideToggle(600);
+    $(".parent").on('click', event => {
+      $(event.currentTarget).next(".child").slideToggle(600);
     });
     $("#outer").css("zoom", $(window).width() * .00065);
-  });
+  //use translate to fix things
+  var foxscale = "scale(" + $(window).width() * .00065 + ")";
+   $("#outer").css("-moz-transform", foxscale);
 
-  $(window).resize(function() {
+  });
+//https://css-tricks.com/scaled-proportional-blocks-with-css-and-javascript/
+  $(window).resize(() => {
     $("#outer").css("zoom", $(window).width() * .00065);
+   var foxscale = "scale(" + $(window).width() * .00065 + ")";
+   $("#outer").css("-moz-transform", foxscale);
   });
 </script>
 </html>
