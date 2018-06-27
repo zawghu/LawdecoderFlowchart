@@ -7,7 +7,7 @@
 <body>
   <div id="outer">
     <?php //This php takes in an xml file, and using its information, generates a flowchart
-    $columns = simplexml_load_file('selling.xml');
+    $columns = simplexml_load_file('singlefamily-mortgage.xml');
     foreach ($columns->column as $column) {
       if ($column->title == "defaulttext") {
         print "<div id=\"info\" class=\"{$column->bubble->type}\"><h1>{$column->bubble->name}</h1><p>{$column->bubble->text}</p></div>";
@@ -84,13 +84,13 @@
       $priorType = "";
       $first = true;
       print "<div>";
-      $columns = simplexml_load_file('selling.xml');
+      $columns = simplexml_load_file('singlefamily-mortgage.xml');
       foreach ($columns->column as $column) {
         if ($column->title != "arrow" && $column->title != "default") {
           foreach ($column->bubble as $bubble) {
             if($bubble->type != "empty") {
               if($priorType != $bubble->type) {
-                print "</div><div class=\"parent bubble {$bubble->type} column-title\"><p>{$column->title}</p></div>";
+                print "</div><div class=\"parent bubble {$bubble->type} head column-title\" style=\"background-color:black;\"><p>{$column->title}</p></div>";
                 print "<div class=\"child\">";
               }
               print "<div id=\"{$bubble->name}\" class=\"bubble parent {$bubble->type}\"><p>{$bubble->name}</p></div>";
@@ -116,6 +116,13 @@
         var title = $(event.currentTarget).next().html();
         var description = $(event.currentTarget).next().next().html();
         document.getElementById("info").innerHTML = "<h1>" + title  + "</h1><p>" + description + "</p>";
+        if ($(event.currentTarget).hasClass("preprocess")) {
+          $('.information').css("background-color", "#009999");
+        } else if ($(event.currentTarget).hasClass("postprocess")) {
+          $('.information').css("background-color", "#623090");
+        } else if ($(event.currentTarget).hasClass("offerprocess")) {
+          $('.information').css("background-color", "#50C6DC");
+        }
       }
     });
     //mobile interactivity

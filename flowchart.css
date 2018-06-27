@@ -1,11 +1,11 @@
 body {
-    background-color: white;
-    font-family: Verdana, sans-serif
+  background-color: white;
+  font-family: Verdana, sans-serif
 }
 
 h1 {
-    color: #440044;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 #outer {
@@ -19,14 +19,35 @@ h1 {
 
 .information {
   margin-left: 3%;
-  background-color: lightgray;
   width: 20%;
-  padding: 10px;
-  min-height: 600px;
-  color: #006666;
+  padding: 15px;
+  color: white;
   float: left;
   display: block;
   white-space: normal;
+  border-radius: 25px;
+  background-color: #009999;
+  margin-right: 10px;
+  text-align: justify;
+}
+.information p {
+  padding: 10px;
+}
+.information li {
+  text-align: left;
+}
+.information a {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  text-align: left;
+}
+.information a:visited {
+  color: white;
+}
+.information a:hover {
+  text-decoration: underline;
+  color: lightgray;
 }
 
 .flowchart {
@@ -86,7 +107,7 @@ h1 {
 }
 
 .preprocess {
-  background-color: #00AEA0;
+  background-color: #009999;
   cursor: pointer;
 }
 .offerprocess {
@@ -116,12 +137,14 @@ h1 {
   display: table;
   vertical-align: middle;
   text-align: center;
+  color: gray;
 }
 
 .vertical-arrow p {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
+  color: gray;
 }
 
 .horizontal-arrow {
@@ -130,6 +153,7 @@ h1 {
   margin:0px;
   line-height:50px;
   display: table;
+  color: gray;
 }
 
 .contents {
