@@ -111,18 +111,18 @@ h1 {
   cursor: pointer;
 }
 .offerprocess {
-  background-color: #50C6DC;
+  background-color: #FF406C;
   cursor: pointer;
 }
 .postprocess {
-  background-color: #623090;
+  background-color: #440044;
   cursor: pointer;
 }
 .selected {
-  background-color: gray;
+  filter: opacity(60%);
 }
 .selected:hover {
-  filter: opacity(100%);
+  filter: opacity(60%);
 }
 
 .arrow-bubble {
@@ -137,14 +137,14 @@ h1 {
   display: table;
   vertical-align: middle;
   text-align: center;
-  color: gray;
+  color: black;
 }
 
 .vertical-arrow p {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  color: gray;
+  color: black;
 }
 
 .horizontal-arrow {
@@ -153,7 +153,7 @@ h1 {
   margin:0px;
   line-height:50px;
   display: table;
-  color: gray;
+  color: black;
 }
 
 .contents {

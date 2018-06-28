@@ -119,9 +119,9 @@
         if ($(event.currentTarget).hasClass("preprocess")) {
           $('.information').css("background-color", "#009999");
         } else if ($(event.currentTarget).hasClass("postprocess")) {
-          $('.information').css("background-color", "#623090");
+          $('.information').css("background-color", "#440044");
         } else if ($(event.currentTarget).hasClass("offerprocess")) {
-          $('.information').css("background-color", "#50C6DC");
+          $('.information').css("background-color", "#FF406C");
         }
       }
     });
@@ -137,7 +137,7 @@
    $("#outer").css("-moz-transform", foxscale);
 
   });
-//https://css-tricks.com/scaled-proportional-blocks-with-css-and-javascript/
+  //https://css-tricks.com/scaled-proportional-blocks-with-css-and-javascript/
   $(window).resize(() => {
     $("#outer").css("zoom", $(window).width() * .00065);
    var foxscale = "scale(" + $(window).width() * .00065 + ")";
